@@ -1,0 +1,146 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+	float:left;
+}
+
+.banner {
+	clear:left;
+}
+
+li {
+	display:inline-block;
+}
+
+a {
+	color:#fe9b00;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-transform:bold;
+
+}
+
+#contact-email {
+	position:absolute;
+	top:5px;
+	right:5px;
+	color:gray;
+	text-transform:none;
+}
+
+nav {
+	padding:1em;
+}
+
+.menu li{
+	padding:0.5em;
+}
+
+a:active {
+	color:black;
+}
+
+a:hover {
+	gray;
+}
+
+.section {
+	border-top:gray solid 1px;
+}
+
+
+.banner {
+  background: #fe9b00; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #fe9b00 , #e45300); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fe9b00, #e45300); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fe9b00, #e45300); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #fe9b00 , #e45300); /* Standard syntax */
+  padding:1em;
+  margin-top:2em;
+  margin-bottom:2em;
+  position:relative;
+  height:35em;
+
+}
+h1 {
+	color:white;
+	text-transform:uppercase;
+	font-size:5em;
+	
+}
+
+.banner-subtitle{
+	background:black;
+	color:#fe9b00;
+	width:50%;
+	
+}
+
+.banner-subtitle h2{
+	display:inline-block;
+	padding-right:1em;
+	padding-left:1em;
+}
+
+#nice-work{
+	color:gray;
+}
+
+.banner img {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:25%;
+}
+.section {
+	width:100%;
+	
+}
+
+.text-column {
+	display:inline-block;
+	width:32%;
+	padding: 2em;
+	vertical-align:top;
+	
+}
+
+.text-column h3 {
+	border-bottom: solid black 3px;
+}
+
+
+
+.portfolio li {
+	padding:2em;
+}
+
+.blog-preview {
+	width:60%;
+
+}
+
+.section>.blog-preview, .section>.social {
+	display:inline-block;
+	vertical-align:top;
+}
+
+footer {
+	background:#e2e2e2;
+	padding:0.5em;
+
+}
+
+footer li {
+	color:gray;
+	padding-right:0.5em;
+	border-right:gray solid 0.5px;
+}
+
+footer li:last-child {
+	border-right:none;
+}
+
